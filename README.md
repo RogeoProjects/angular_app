@@ -91,4 +91,4 @@ sudo systemctl restart nginx
 # Implementation of Vercel
 The Angular app is deployed and hosted on Vercel. You can access the public link to the app using the following
 
-https://angular-app-jenkins-pipeline.vercel.app/?vercelToolbarCode=jefYP__PpPyAXu7
+https://angular-app-jenkins-pipeline.vercel.app/
