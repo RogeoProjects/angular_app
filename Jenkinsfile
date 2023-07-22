@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Esta etapa faz o checkout do código-fonte do repositório Git
+                // This step checkouts the source code from the Git repository
                 checkout scm
             }
         }
 
         stage('Build') {
             steps {
-                // Etapa de construção: instala as dependências e compila o projeto Angular
+                // Build step: Install the dependencies and build the Angular project
                 sh 'npm install'
                 sh 'npm run build'
             }
@@ -19,11 +19,11 @@ pipeline {
 
         stage('Serve') {
             steps {
-                // Etapa que executa o servidor da aplicação Angular usando o comando "ng serve"
+                // Step that runs Angular application server using "ng serve" command
                 sh 'npm run start'
             }
         }
 
-        // Adicione outras etapas conforme necessário, como testes automatizados, implantação, etc.
+        // Add other steps as needed, such as automated testing, deployment, etc.
     }
 }
