@@ -86,3 +86,9 @@ sudo systemctl restart nginx
 6. Now, your Angular application is being served by Jenkins and exposed through Nginx on port 80. You can access it in your browser by typing the server address, for example: http://192.168.1.60.
 
 7. Feel free to copy and paste this updated README.md file into your repository to document the steps for configuring Jenkins and Nginx to run and expose the Angular application. If you have any further questions or need additional assistance, please let me know!
+
+
+# Implantação do Vercel
+The Angular app is deployed and hosted on Vercel. You can access the public link to the app using the following
+
+https://angular-app-jenkins-pipeline.vercel.app/?vercelToolbarCode=jefYP__PpPyAXu7
