@@ -88,7 +88,7 @@ sudo systemctl restart nginx
 7. Feel free to copy and paste this updated README.md file into your repository to document the steps for configuring Jenkins and Nginx to run and expose the Angular application. If you have any further questions or need additional assistance, please let me know!
 
 
-# Implantação do Vercel
+# Implementation of Vercel
 The Angular app is deployed and hosted on Vercel. You can access the public link to the app using the following
 
 https://angular-app-jenkins-pipeline.vercel.app/?vercelToolbarCode=jefYP__PpPyAXu7
